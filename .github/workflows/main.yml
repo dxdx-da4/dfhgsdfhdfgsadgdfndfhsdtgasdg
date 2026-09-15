@@ -2,7 +2,7 @@ name: Game News Parser
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+  - cron: '5 20 * * *'  # Запустится в 20:05 UTC (это 23:05 по МСК)
   workflow_dispatch:
 
 jobs:

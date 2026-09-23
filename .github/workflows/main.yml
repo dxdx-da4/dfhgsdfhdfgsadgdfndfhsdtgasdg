@@ -32,4 +32,5 @@ jobs:
       env:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
       run: python parser.py
